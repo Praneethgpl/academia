@@ -58,7 +58,7 @@ class _civilsState extends State<civils> {
                         ),
                         Center(
                             child: Text(
-                                "   The Indian Administrative \nService (IAS).",style: TextStyle(color: Colors.white),))
+                                "   The Indian Administrative\n Service (IAS).",style: TextStyle(color: Colors.white),))
                       ],
                     ),
                   ),
@@ -178,7 +178,7 @@ class _civilsState extends State<civils> {
                         ),
                         Center(
                             child: Text(
-                                "The Indian Defence Account\n Service (IDAS) ",style: TextStyle(fontSize: 13,color: Colors.white),))
+                                "The Indian Defence \nAccount Service (IDAS) ",style: TextStyle(fontSize: 13,color: Colors.white),))
                       ],
                     ),
                   ),
@@ -218,7 +218,7 @@ class _civilsState extends State<civils> {
                         ),
                         Center(
                             child: Text(
-                                " The Indian Information\n Service (IIS) ",style: TextStyle(color: Colors.white),))
+                                " The Indian Information \nService (IIS) ",style: TextStyle(color: Colors.white),))
                       ],
                     ),
                   ),

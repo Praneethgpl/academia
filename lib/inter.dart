@@ -208,12 +208,12 @@ class _mpcState extends State<mpc> {
                   padding: const EdgeInsets.only(left: 18.0,top: 18,right: 8,bottom: 12),
                   child: Column(crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      ElevatedButton(style: ElevatedButton.styleFrom(primary: Colors.purple),child: Text("➡ Defense Services.",style: TextStyle(fontSize: 25,fontFamily: "LeagueSpartan",color: Colors.white),),onPressed: (){},),
-                      ElevatedButton(style: ElevatedButton.styleFrom(primary: Colors.purple),child: Text("➡ Civil Services.",style: TextStyle(fontSize: 25,fontFamily: "LeagueSpartan",),),onPressed: (){},),
-                      ElevatedButton(style: ElevatedButton.styleFrom(primary: Colors.purple),child: Text("➡ Banking Sector. ",style: TextStyle(fontSize: 25,fontFamily: "LeagueSpartan",),),onPressed: (){},),
-                      ElevatedButton(style: ElevatedButton.styleFrom(primary: Colors.purple),child: Text("➡ Railways. ",style: TextStyle(fontSize: 25,fontFamily: "LeagueSpartan",),),onPressed: (){},),
-                      ElevatedButton(style: ElevatedButton.styleFrom(primary: Colors.purple),child: Text("➡ Staff Selection Commission",style: TextStyle(fontSize: 23,fontFamily: "LeagueSpartan",),),onPressed: (){},),
-                      ElevatedButton(style: ElevatedButton.styleFrom(primary: Colors.purple),child: Text("➡ Teaching",style: TextStyle(fontSize: 25,fontFamily: "LeagueSpartan",),),onPressed: (){},),],
+                      ElevatedButton(style: ElevatedButton.styleFrom(backgroundColor: Colors.purple),child: Text("➡ Defense Services.",style: TextStyle(fontSize: 25,fontFamily: "LeagueSpartan",color: Colors.white),),onPressed: (){},),
+                      ElevatedButton(style: ElevatedButton.styleFrom(backgroundColor: Colors.purple),child: Text("➡ Civil Services.",style: TextStyle(fontSize: 25,fontFamily: "LeagueSpartan",),),onPressed: (){},),
+                      ElevatedButton(style: ElevatedButton.styleFrom(backgroundColor: Colors.purple),child: Text("➡ Banking Sector. ",style: TextStyle(fontSize: 25,fontFamily: "LeagueSpartan",),),onPressed: (){},),
+                      ElevatedButton(style: ElevatedButton.styleFrom(backgroundColor: Colors.purple),child: Text("➡ Railways. ",style: TextStyle(fontSize: 25,fontFamily: "LeagueSpartan",),),onPressed: (){},),
+                      ElevatedButton(style: ElevatedButton.styleFrom(backgroundColor: Colors.purple),child: Text("➡ Staff Selection Commission",style: TextStyle(fontSize: 23,fontFamily: "LeagueSpartan",),),onPressed: (){},),
+                      ElevatedButton(style: ElevatedButton.styleFrom(backgroundColor: Colors.purple),child: Text("➡ Teaching",style: TextStyle(fontSize: 25,fontFamily: "LeagueSpartan",),),onPressed: (){},),],
                   ),
                 ),
               ),
@@ -231,19 +231,19 @@ class _mpcState extends State<mpc> {
                   padding: const EdgeInsets.all(28.0),
                   child: Column(crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      ElevatedButton(style:ElevatedButton.styleFrom(primary:Colors.purple),child: Text(" ➡ Engineering",style: TextStyle(fontSize: wi/18,fontFamily: "LeagueSpartan"),
+                      ElevatedButton(style:ElevatedButton.styleFrom(backgroundColor:Colors.purple),child: Text(" ➡ Engineering",style: TextStyle(fontSize: wi/18,fontFamily: "LeagueSpartan"),
                       ),onPressed: (){Navigator.push(context, MaterialPageRoute(builder: (context)=>engineering()));},),
-                      ElevatedButton(style:ElevatedButton.styleFrom(primary:Colors.purple),child: Text(" ➡Bachelor Science",style: TextStyle(fontSize: wi/18,fontFamily: "LeagueSpartan"),),onPressed: (){
+                      ElevatedButton(style:ElevatedButton.styleFrom(backgroundColor:Colors.purple),child: Text(" ➡Bachelor Science",style: TextStyle(fontSize: wi/18,fontFamily: "LeagueSpartan"),),onPressed: (){
                         Navigator.push(context, MaterialPageRoute(builder: (context)=>bsc()));
                       },),
-                      ElevatedButton(style:ElevatedButton.styleFrom(primary:Colors.purple),child: Text(" ➡  Bachelor of computer applications",style: TextStyle(fontSize: wi/18,fontFamily: "LeagueSpartan",),),
+                      ElevatedButton(style:ElevatedButton.styleFrom(backgroundColor:Colors.purple),child: Text(" ➡  Bachelor of computer applications",style: TextStyle(fontSize: wi/18,fontFamily: "LeagueSpartan",),),
                       onPressed: (){Navigator.push(context, MaterialPageRoute(builder: (context)=>BCA()));},),
-                      ElevatedButton(style:ElevatedButton.styleFrom(primary:Colors.purple),child: Text(" ➡ B.Sc.IT",style: TextStyle(fontSize: wi/18,fontFamily: "LeagueSpartan"),),onPressed: (){Navigator.push(context, MaterialPageRoute(builder: (context)=>BScIT()));},),
-                      ElevatedButton(style:ElevatedButton.styleFrom(primary:Colors.purple),child: Text(" ➡B.sc.Electronics",style: TextStyle(fontSize: wi/18,fontFamily: "LeagueSpartan"),),onPressed: (){Navigator.push(context, MaterialPageRoute(builder: (context)=>BScelectronics()));},),
-                      ElevatedButton(style:ElevatedButton.styleFrom(primary:Colors.purple),child: Text(" ➡B.Sc .Statistics",style: TextStyle(fontSize: wi/18,fontFamily: "LeagueSpartan"),),onPressed: (){Navigator.push(context, MaterialPageRoute(builder: (context)=>BScStatistics()));},),
-                      ElevatedButton(style:ElevatedButton.styleFrom(primary:Colors.purple),child: Text(" ➡B.Design",style: TextStyle(fontSize: wi/18,fontFamily: "LeagueSpartan"),),onPressed: (){Navigator.push(context, MaterialPageRoute(builder: (context)=>BDesign()));},),
+                      ElevatedButton(style:ElevatedButton.styleFrom(backgroundColor:Colors.purple),child: Text(" ➡ B.Sc.IT",style: TextStyle(fontSize: wi/18,fontFamily: "LeagueSpartan"),),onPressed: (){Navigator.push(context, MaterialPageRoute(builder: (context)=>BScIT()));},),
+                      ElevatedButton(style:ElevatedButton.styleFrom(backgroundColor:Colors.purple),child: Text(" ➡B.sc.Electronics",style: TextStyle(fontSize: wi/18,fontFamily: "LeagueSpartan"),),onPressed: (){Navigator.push(context, MaterialPageRoute(builder: (context)=>BScelectronics()));},),
+                      ElevatedButton(style:ElevatedButton.styleFrom(backgroundColor:Colors.purple),child: Text(" ➡B.Sc .Statistics",style: TextStyle(fontSize: wi/18,fontFamily: "LeagueSpartan"),),onPressed: (){Navigator.push(context, MaterialPageRoute(builder: (context)=>BScStatistics()));},),
+                      ElevatedButton(style:ElevatedButton.styleFrom(backgroundColor:Colors.purple),child: Text(" ➡B.Design",style: TextStyle(fontSize: wi/18,fontFamily: "LeagueSpartan"),),onPressed: (){Navigator.push(context, MaterialPageRoute(builder: (context)=>BDesign()));},),
 
-                      ElevatedButton(style:ElevatedButton.styleFrom(primary:Colors.purple),child: Text(" ➡Bachelor of Law",style: TextStyle(fontSize: wi/18,fontFamily: "LeagueSpartan"),),onPressed: (){Navigator.push(context, MaterialPageRoute(builder: (context)=>BLaw()));},),
+                      ElevatedButton(style:ElevatedButton.styleFrom(backgroundColor:Colors.purple),child: Text(" ➡Bachelor of Law",style: TextStyle(fontSize: wi/18,fontFamily: "LeagueSpartan"),),onPressed: (){Navigator.push(context, MaterialPageRoute(builder: (context)=>BLaw()));},),
                     ],
                   ),
                 ),
@@ -346,15 +346,15 @@ class _bipcState extends State<bipc> {
                 padding: const EdgeInsets.only(top: 18.0,left: 20,right: 90,bottom: 30),
                 child: Column(crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    ElevatedButton(style:ElevatedButton.styleFrom(primary:Colors.purple),child: Text(" ➡ MBBS",style: TextStyle(fontSize: wi/18,fontFamily: "LeagueSpartan"),
+                    ElevatedButton(style:ElevatedButton.styleFrom(backgroundColor:Colors.purple),child: Text(" ➡ MBBS",style: TextStyle(fontSize: wi/18,fontFamily: "LeagueSpartan"),
                     ),onPressed: (){Navigator.push(context, MaterialPageRoute(builder: (context)=>mbbs()));},),
-                    ElevatedButton(style:ElevatedButton.styleFrom(primary:Colors.purple),child: Text(" ➡BDS",style: TextStyle(fontSize: wi/18,fontFamily: "LeagueSpartan"),),onPressed: (){
+                    ElevatedButton(style:ElevatedButton.styleFrom(backgroundColor:Colors.purple),child: Text(" ➡BDS",style: TextStyle(fontSize: wi/18,fontFamily: "LeagueSpartan"),),onPressed: (){
                       Navigator.push(context, MaterialPageRoute(builder: (context)=>bds()));
                     },),
 
-                    ElevatedButton(style:ElevatedButton.styleFrom(primary:Colors.purple),child: Text(" ➡B.sc.Physics",style: TextStyle(fontSize: wi/18,fontFamily: "LeagueSpartan"),),onPressed: (){Navigator.push(context, MaterialPageRoute(builder: (context)=>BScphysics()));},),
-                    ElevatedButton(style:ElevatedButton.styleFrom(primary:Colors.purple),child: Text(" ➡B.Sc .Chemistry",style: TextStyle(fontSize: wi/18,fontFamily: "LeagueSpartan"),),onPressed: (){Navigator.push(context, MaterialPageRoute(builder: (context)=>BScchemistry()));},),
-                    ElevatedButton(style:ElevatedButton.styleFrom(primary:Colors.purple),child: Text(" ➡B.sc.Biotechnology",style: TextStyle(fontSize: wi/18,fontFamily: "LeagueSpartan"),),onPressed: (){Navigator.push(context, MaterialPageRoute(builder: (context)=>BScbiotech()));},),
+                    ElevatedButton(style:ElevatedButton.styleFrom(backgroundColor:Colors.purple),child: Text(" ➡B.sc.Physics",style: TextStyle(fontSize: wi/18,fontFamily: "LeagueSpartan"),),onPressed: (){Navigator.push(context, MaterialPageRoute(builder: (context)=>BScphysics()));},),
+                    ElevatedButton(style:ElevatedButton.styleFrom(backgroundColor:Colors.purple),child: Text(" ➡B.Sc .Chemistry",style: TextStyle(fontSize: wi/18,fontFamily: "LeagueSpartan"),),onPressed: (){Navigator.push(context, MaterialPageRoute(builder: (context)=>BScchemistry()));},),
+                    ElevatedButton(style:ElevatedButton.styleFrom(backgroundColor:Colors.purple),child: Text(" ➡B.sc.Biotechnology",style: TextStyle(fontSize: wi/18,fontFamily: "LeagueSpartan"),),onPressed: (){Navigator.push(context, MaterialPageRoute(builder: (context)=>BScbiotech()));},),
 
 
                   ],
@@ -427,18 +427,18 @@ class _cecState extends State<cec> {
               padding: const EdgeInsets.only(top: 18.0,left: 20,right: 10,bottom: 30),
               child: Column(crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  ElevatedButton(style:ElevatedButton.styleFrom(primary:Colors.purple),child: Text(" ➡ Engineering",style: TextStyle(fontSize: wi/18,fontFamily: "LeagueSpartan"),
+                  ElevatedButton(style:ElevatedButton.styleFrom(backgroundColor:Colors.purple),child: Text(" ➡ Engineering",style: TextStyle(fontSize: wi/18,fontFamily: "LeagueSpartan"),
                   ),onPressed: (){Navigator.push(context, MaterialPageRoute(builder: (context)=>engineering()));},),
-                  ElevatedButton(style:ElevatedButton.styleFrom(primary:Colors.purple),child: Text(" ➡Bachelor of Science",style: TextStyle(fontSize: wi/18,fontFamily: "LeagueSpartan"),),onPressed: (){
+                  ElevatedButton(style:ElevatedButton.styleFrom(backgroundColor:Colors.purple),child: Text(" ➡Bachelor of Science",style: TextStyle(fontSize: wi/18,fontFamily: "LeagueSpartan"),),onPressed: (){
                     Navigator.push(context, MaterialPageRoute(builder: (context)=>bsc()));
                   },),
 
-                  ElevatedButton(style:ElevatedButton.styleFrom(primary:Colors.purple),child: Text(" ➡Bachelor of computer applications",style: TextStyle(fontSize: wi/18,fontFamily: "LeagueSpartan"),),onPressed: (){Navigator.push(context, MaterialPageRoute(builder: (context)=>BCA()));},),
-                  ElevatedButton(style:ElevatedButton.styleFrom(primary:Colors.purple),child: Text(" ➡B.com",style: TextStyle(fontSize: wi/18,fontFamily: "LeagueSpartan"),),onPressed: (){Navigator.push(context, MaterialPageRoute(builder: (context)=>BCom()));},),
-                  ElevatedButton(style:ElevatedButton.styleFrom(primary:Colors.purple),child: Text(" ➡B.A",style: TextStyle(fontSize: wi/18,fontFamily: "LeagueSpartan"),),onPressed: (){Navigator.push(context, MaterialPageRoute(builder: (context)=>BA()));},),
-                 // ElevatedButton(style:ElevatedButton.styleFrom(primary:Colors.purple),child: Text(" ➡BBM",style: TextStyle(fontSize: wi/18,fontFamily: "LeagueSpartan"),),onPressed: (){Navigator.push(context, MaterialPageRoute(builder: (context)=>BScphysics()));},),
-                  ElevatedButton(style:ElevatedButton.styleFrom(primary:Colors.purple),child: Text(" ➡B.B.A",style: TextStyle(fontSize: wi/18,fontFamily: "LeagueSpartan"),),onPressed: (){Navigator.push(context, MaterialPageRoute(builder: (context)=>onescreen()));},),
-                 // ElevatedButton(style:ElevatedButton.styleFrom(primary:Colors.purple),child: Text(" ➡B.A",style: TextStyle(fontSize: wi/18,fontFamily: "LeagueSpartan"),),onPressed: (){Navigator.push(context, MaterialPageRoute(builder: (context)=>BScbiotech()));},),
+                  ElevatedButton(style:ElevatedButton.styleFrom(backgroundColor:Colors.purple),child: Text(" ➡Bachelor of computer applications",style: TextStyle(fontSize: wi/18,fontFamily: "LeagueSpartan"),),onPressed: (){Navigator.push(context, MaterialPageRoute(builder: (context)=>BCA()));},),
+                  ElevatedButton(style:ElevatedButton.styleFrom(backgroundColor:Colors.purple),child: Text(" ➡B.com",style: TextStyle(fontSize: wi/18,fontFamily: "LeagueSpartan"),),onPressed: (){Navigator.push(context, MaterialPageRoute(builder: (context)=>BCom()));},),
+                  ElevatedButton(style:ElevatedButton.styleFrom(backgroundColor:Colors.purple),child: Text(" ➡B.A",style: TextStyle(fontSize: wi/18,fontFamily: "LeagueSpartan"),),onPressed: (){Navigator.push(context, MaterialPageRoute(builder: (context)=>BA()));},),
+                 // ElevatedButton(style:ElevatedButton.styleFrom(backgroundColor:Colors.purple),child: Text(" ➡BBM",style: TextStyle(fontSize: wi/18,fontFamily: "LeagueSpartan"),),onPressed: (){Navigator.push(context, MaterialPageRoute(builder: (context)=>BScphysics()));},),
+                  ElevatedButton(style:ElevatedButton.styleFrom(backgroundColor:Colors.purple),child: Text(" ➡B.B.A",style: TextStyle(fontSize: wi/18,fontFamily: "LeagueSpartan"),),onPressed: (){Navigator.push(context, MaterialPageRoute(builder: (context)=>onescreen()));},),
+                 // ElevatedButton(style:ElevatedButton.styleFrom(backgroundColor:Colors.purple),child: Text(" ➡B.A",style: TextStyle(fontSize: wi/18,fontFamily: "LeagueSpartan"),),onPressed: (){Navigator.push(context, MaterialPageRoute(builder: (context)=>BScbiotech()));},),
 
 
 
@@ -515,13 +515,13 @@ class _mecState extends State<mec> {
                 padding: const EdgeInsets.only(top: 18.0,left: 20,right: 90,bottom: 30),
                 child: Column(crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    ElevatedButton(style:ElevatedButton.styleFrom(primary:Colors.purple),child: Text(" ➡ Finance",style: TextStyle(fontSize: wi/18,fontFamily: "LeagueSpartan"),
+                    ElevatedButton(style:ElevatedButton.styleFrom(backgroundColor:Colors.purple),child: Text(" ➡ Finance",style: TextStyle(fontSize: wi/18,fontFamily: "LeagueSpartan"),
                     ),onPressed: (){Navigator.push(context, MaterialPageRoute(builder: (context)=>fi()));},),
-                    ElevatedButton(style:ElevatedButton.styleFrom(primary:Colors.purple),child: Text(" ➡Management",style: TextStyle(fontSize: wi/18,fontFamily: "LeagueSpartan"),),onPressed: (){
+                    ElevatedButton(style:ElevatedButton.styleFrom(backgroundColor:Colors.purple),child: Text(" ➡Management",style: TextStyle(fontSize: wi/18,fontFamily: "LeagueSpartan"),),onPressed: (){
                       Navigator.push(context, MaterialPageRoute(builder: (context)=>m()));
                     },),
 
-                    ElevatedButton(style:ElevatedButton.styleFrom(primary:Colors.purple),child: Text(" ➡Economics",style: TextStyle(fontSize: wi/18,fontFamily: "LeagueSpartan"),),onPressed: (){Navigator.push(context, MaterialPageRoute(builder: (context)=>ec()));},),
+                    ElevatedButton(style:ElevatedButton.styleFrom(backgroundColor:Colors.purple),child: Text(" ➡Economics",style: TextStyle(fontSize: wi/18,fontFamily: "LeagueSpartan"),),onPressed: (){Navigator.push(context, MaterialPageRoute(builder: (context)=>ec()));},),
 
 
 
@@ -596,13 +596,13 @@ class _hecState extends State<hec> {
               padding: const EdgeInsets.only(top: 18.0,left: 20,right: 90,bottom: 30),
               child: Column(crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  ElevatedButton(style:ElevatedButton.styleFrom(primary:Colors.purple),child: Text(" ➡ Bachelor of computers",style: TextStyle(fontSize: wi/18,fontFamily: "LeagueSpartan"),
+                  ElevatedButton(style:ElevatedButton.styleFrom(backgroundColor:Colors.purple),child: Text(" ➡ Bachelor of computers",style: TextStyle(fontSize: wi/18,fontFamily: "LeagueSpartan"),
                   ),onPressed: (){Navigator.push(context, MaterialPageRoute(builder: (context)=>BCom()));},),
-                  ElevatedButton(style:ElevatedButton.styleFrom(primary:Colors.purple),child: Text(" ➡Bachelor of Science",style: TextStyle(fontSize: wi/18,fontFamily: "LeagueSpartan"),),onPressed: (){
+                  ElevatedButton(style:ElevatedButton.styleFrom(backgroundColor:Colors.purple),child: Text(" ➡Bachelor of Science",style: TextStyle(fontSize: wi/18,fontFamily: "LeagueSpartan"),),onPressed: (){
                     Navigator.push(context, MaterialPageRoute(builder: (context)=>bsc()));
                   },),
 
-                  ElevatedButton(style:ElevatedButton.styleFrom(primary:Colors.purple),child: Text(" ➡Bachelor of Arts",style: TextStyle(fontSize: wi/18,fontFamily: "LeagueSpartan"),),onPressed: (){Navigator.push(context, MaterialPageRoute(builder: (context)=>BA()));},),
+                  ElevatedButton(style:ElevatedButton.styleFrom(backgroundColor:Colors.purple),child: Text(" ➡Bachelor of Arts",style: TextStyle(fontSize: wi/18,fontFamily: "LeagueSpartan"),),onPressed: (){Navigator.push(context, MaterialPageRoute(builder: (context)=>BA()));},),
 
 
 

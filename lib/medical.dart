@@ -28,7 +28,7 @@ class _MedicalState extends State<Medical> {
     "Bachelor of occupational therapy",
     "Bachelor of medical laboratory technology",
     "Bachelor of physiotherapy",
-    "Bachelor of science in nursing",
+    "B.Sc.nursing-Bachelor of science in nursing",
     "Bachelor of naturopathy and yogic sciences"
   ];
   @override
@@ -204,7 +204,7 @@ class _MedicalState extends State<Medical> {
             Padding(
               padding: const EdgeInsets.only(left: 58.0,right: 58,top: 20),
               child: ElevatedButton(
-                  style: ElevatedButton.styleFrom(primary: Colors.red),
+                  style: ElevatedButton.styleFrom(backgroundColor: Colors.red),
                   onPressed: () {
                     if ("$selected" ==
                         "Bacheloer of medicine and bachelor of surgery") {
@@ -261,7 +261,7 @@ class _MedicalState extends State<Medical> {
                           context, MaterialPageRoute(builder: (context) => bpt()));
                     }
                     if ("$selected" ==
-                        "Bachelor of science in nursing") {
+                        "B.Sc.nursing-Bachelor of science in nursing") {
                       Navigator.push(
                           context, MaterialPageRoute(builder: (context) => bsc()));
                     }

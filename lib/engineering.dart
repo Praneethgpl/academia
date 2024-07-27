@@ -155,7 +155,7 @@ class _engineeringState extends State<engineering> {
                   }).toList()),
             ),
             ElevatedButton(
-                style: ElevatedButton.styleFrom(primary: Colors.purple),
+                style: ElevatedButton.styleFrom(backgroundColor: Colors.purple),
                 onPressed: () {
                   if ("$selected" == "AeroSpace engienering") {
                     Navigator.push(context,

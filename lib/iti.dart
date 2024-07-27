@@ -886,7 +886,7 @@ class _groupsState extends State<groups> {
         title: Center(child: Text("ITI GROUPS")),
       ),
       body: Padding(
-        padding: const EdgeInsets.only(bottom: 0),
+        padding: const EdgeInsets.all(0),
         child: AnimationLimiter(
           child: GridView.count(crossAxisCount: 2,crossAxisSpacing:10,mainAxisSpacing:10,children: List.generate(8, (index){
             return AnimationConfiguration.staggeredGrid(position: index, columnCount:2, child:ScaleAnimation(

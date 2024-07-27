@@ -71,7 +71,7 @@ class _screen11State extends State<screen11> {
                         ),
                         Center(
                             child: Text(
-                              "1.Indian Administrative\n Services (IAS)",
+                              "1.Indian Administrative \nServices (IAS)",
                               style:
                               TextStyle(fontSize: 15,
                                   fontWeight: FontWeight.bold),
@@ -346,7 +346,7 @@ class _screen11State extends State<screen11> {
                         ),
                         Center(
                           child: Text(
-                            "  11.Union Public Service\n Commission",
+                            "  11.Union Public \nService Commission",
                             style:
                             TextStyle(fontSize: 15,
                                 fontWeight: FontWeight.bold),
@@ -424,7 +424,7 @@ class _screen11State extends State<screen11> {
                       children: [
                         Center(
                             child: Text(
-                              "14. Indian Forest Service (IFS)",
+                              "14. Indian Forest \nService (IFS)",
                               style:
                               TextStyle(fontSize: 15,
                                   fontWeight: FontWeight.bold),
@@ -479,7 +479,7 @@ class _screen11State extends State<screen11> {
                       children: [
                         Center(
                             child: Text(
-                              "16. Public Service\n Undertakings (PSUs)",
+                              "16. Public Service \nUndertakings (PSUs)",
                               style:
                               TextStyle(fontSize: 15,
                                   fontWeight: FontWeight.bold),
@@ -566,7 +566,7 @@ class _screen11State extends State<screen11> {
                         ),
                         Center(
                             child: Text(
-                              "19. Central Armed Police \nForces (CAPF)",
+                              "19. Central Armed Police\n Forces (CAPF)",
                               style:
                               TextStyle(fontSize: 15,
                                   fontWeight: FontWeight.bold),
